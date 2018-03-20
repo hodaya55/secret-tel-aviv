@@ -1,0 +1,119 @@
+body 
+{
+    margin: 0;
+    background-color: #ddd;
+}
+
+nav 
+{
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav li
+{
+    display: inline-block;
+}
+
+nav ul {
+    margin: 0;
+    text-align: center;
+  }
+
+nav li a 
+{ 
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+    text-decoration: none;
+    color: #999;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 18px;
+}
+
+.hero {
+    background: url('http://www.elevationacademy.co/wp-content/uploads/2016/02/Tel-Aviv.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 700px;
+  }
+
+.hero-image 
+{
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 150px;
+  }
+
+  h1 {
+    margin: 0;
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+  }
+  
+  h3 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  section {
+    background-color: #ddd;
+     text-align: center;
+  }
+
+
+  
+  .img1{
+    vertical-align: center;
+     margin: 20px;
+     display: inline-block;
+     
+     
+   }
+   
+   
+.size-img{
+    width: 300px;
+     height: 300px;
+     margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red ;
+   
+  }
+
+  .songs-container {
+    background-color: green;
+ 
+  }
+ */ 
