@@ -72,23 +72,21 @@ nav li a
 
 
   
-  .img1{
-    vertical-align: center;
-     margin: 20px;
-     display: inline-block;
-     
-     
-   }
-   
-   
-.size-img{
-    width: 300px;
-     height: 300px;
-     margin: 10px;
-}
+  .column {
+    float: left;
+    width: 33.333%;
+  }
+
+  .food img {
+    width: 100%;
+  }
+
+  .column-inner {
+    padding: 20px;
+  }
 
 
-
+ 
 
 
 
