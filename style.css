@@ -136,10 +136,6 @@ nav li a
     box-sizing: border-box;
   }
 
-  .column-70 img{
-    /*! height: 100%; */
-    width: 100%;
-  }
 
 
   .column-30 {
@@ -154,13 +150,26 @@ nav li a
     padding-top: 0px;
   }
 
+  .column-70 img{
+    /*! height: 100%; */
+    width: 100%;
+  }
 
-  .column-30 p{
+.column-30 p{
     text-align: justify;
     text-justify: inter-word;
 }
 
 
+  @media (max-width: 700px) {
+    .column-70 {
+      width: 100%;
+    }
+ .column-30 {
+      width: 93%;
+      margin-left: 20px;
+    }
+  }
 
 
 
