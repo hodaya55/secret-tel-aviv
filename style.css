@@ -142,8 +142,10 @@ nav li a
         font-weight: bold;
         padding: 25px;
         background: floralwhite;
-      margin-right: 58px;
-  margin-left: 58px;
+      /* margin-right: 58px;
+  margin-left: 58px; */
+  margin-right: 7%;
+  margin-left: 7%;
         
 }
 
