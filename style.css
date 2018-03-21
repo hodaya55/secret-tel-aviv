@@ -171,6 +171,19 @@ nav li a
     }
   }
 
+  .below-col-30 img{
+    float: left;
+    width: 30%;
+    padding-top: 38px;
+  }
 
 
-
+  @media (max-width: 865px){
+    .below-col-30 img {
+       width: 80%;
+      float: none;
+      
+     }
+ }
+ 
+ 
