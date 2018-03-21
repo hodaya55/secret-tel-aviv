@@ -1,29 +1,29 @@
-body 
-{
+.night-life .row {
+    padding-bottom: 30px;
+}
+
+body {
     margin: 0;
     background-color: #ddd;
 }
 
-nav 
-{
-  background-color: #333333;
-  position: fixed;
-  width: 100%;
-  top: 0;
+nav {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
-nav li
-{
+nav li {
     display: inline-block;
 }
 
 nav ul {
     margin: 0;
     text-align: center;
-  }
+}
 
-nav li a 
-{ 
+nav li a {
     font-family: 'Roboto', sans-serif;
     line-height: 50px;
     text-decoration: none;
@@ -38,152 +38,188 @@ nav li a
     background: url('http://www.elevationacademy.co/wp-content/uploads/2016/02/Tel-Aviv.jpg') no-repeat center fixed;
     background-size: cover;
     height: 700px;
-  }
+}
 
-.hero-image 
-{
+.hero-image {
     width: 100%;
     max-width: 500px;
     display: block;
     margin: 0 auto;
     padding-top: 150px;
-  }
+}
 
-  h1 {
+h1 {
     margin: 0;
     font-family: 'Roboto';
     text-align: center;
     font-weight: bold;
     padding: 25px;
-  }
-  
-  h3 {
+}
+
+h3 {
     text-align: center;
     font-weight: bold;
     font-family: 'Roboto';
     margin-bottom: 5px;
     font-size: 18px;
-  }
-  
-  section {
+}
+
+section {
     background-color: #ddd;
-     text-align: center;
-  }
+    text-align: center;
+}
 
-
-  
-  .column {
+.column {
     float: left;
     width: 33.333%;
-  }
+}
 
-  .food img {
+.food img {
     width: 100%;
-  }
+}
 
-  .column-inner {
+.column-inner {
     padding: 20px;
-  }
+}
 
-  @media (min-device-width: 481px) and (max-device-width: 768px) { 
+@media (min-device-width: 481px) and (max-device-width: 768px) {
     img {
-      display: none;
+        display: none;
     }
-  }
- 
-  @media (max-width: 700px) {
-    .column {
-      width: 100%;
-    }
-  }
+}
 
-  .row:before {
+@media (max-width: 700px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.row:before {
     display: table;
     content: "";
-  }
-  
-  .row:after {
+}
+
+.row:after {
     display: table;
     content: "";
     clear: both;
-  }
-
-
-.column-70 h1{
-
-        margin: 0;
-        font-family: 'Merriweather';
-        text-align: center;
-        font-weight: bold;
-        padding: 25px;
-        background: floralwhite;
-      /* margin-right: 58px;
-  margin-left: 58px; */
-  /*! margin-right: 7%; */
-  /*! margin-left: 7%; */
-        
 }
 
-
-
+.column-70 h1 {
+    margin: 0;
+    font-family: 'Merriweather';
+    padding: 25px;
+    background: floralwhite;
+}
 
 .column-70 {
     width: 68%;
     float: left;
-/*     height: 500px; */
-  
+    /*     height: 500px; */
     padding: 21px;
     box-sizing: border-box;
-  }
+}
 
+p {
+    font-size: 20px;
+    line-height: 25px;
+}
 
-
-  .column-30 {
+.column-30 {
     width: 30%;
     float: left;
-/*     height: 500px; */
+    /*     height: 500px; */
     padding: 42px;
     margin-top: 20px;
     box-sizing: border-box;
     background-color: floralwhite;
-    /*! margin-left: -10px; */
     padding-top: 0px;
-  }
+}
 
-  .column-70 img{
-    /*! height: 100%; */
+.column-70 img {
     width: 100%;
-  }
+}
 
-.column-30 p{
+.column-30 p {
     text-align: justify;
     text-justify: inter-word;
 }
 
 
-  @media (max-width: 700px) {
-    .column-70 {
-      width: 100%;
-    }
- .column-30 {
-      width: 93%;
-      margin-left: 20px;
-    }
-  }
+/* Partner Exercise #2 */
 
-  .below-col-30 img{
+@media (max-width: 700px) {
+    .column-70 {
+        width: 100%;
+    }
+    .column-30 {
+        width: 93%;
+        margin-left: 20px;
+    }
+}
+
+
+/* Partner Exercise #3 */
+
+.below-col-30 img {
     float: left;
     width: 30%;
     padding-top: 38px;
-  }
+}
 
-
-  @media (max-width: 865px){
+@media (max-width: 865px) {
     .below-col-30 img {
-       width: 80%;
-      float: none;
-      
-     }
- }
- 
- 
+        width: 80%;
+        float: none;
+    }
+}
+
+
+/* Partner Exercise #4 */
+
+@media (max-width: 700px) {
+    body {
+        font-size: 20px;
+    }
+    nav ul a {
+        font-size: 20px;
+    }
+    .column-inner h3 {
+        font-size: 19px;
+    }
+}
+
+@media (min-width:780px) and (max-width: 1050px) {
+    body {
+        font-size: 18px;
+    }
+    nav ul a {
+        font-size: 18px;
+    }
+    .column-inner h3 {
+        font-size: 15px;
+    }
+    .column-30 h1 {
+        font-size: 20px;
+    }
+    .column-30 p {
+        text-align: initial;
+        font-size: 18px;
+        margin: -5.5px;
+        /*       text-justify:  inter-word; */
+    }
+    .column-70 h1 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width:700px) and (max-width:780px) {
+    .column-30 p {
+        margin: -5.5px;
+        font-size: 15px;
+        text-justify: none;
+    }
+    nav ul a {
+        font-size: 20px;
+    }
+}
