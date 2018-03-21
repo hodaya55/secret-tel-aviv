@@ -97,31 +97,6 @@ nav li a
     }
   }
 
-
-
-  .column-70 {
-    width: 65%;
-    float: left;
-    height: 500px;
-  
-  }
-
-
-
-  .column-30 {
-    width: 25%;
-    float: left;
-/*     height: 500px; */
-    background-color: white;
-    padding: 10px;
-    margin-left: 40px;
-    box-sizing: border-box;
-  }
-
-  .column-70 img{
-    height: 100%;
-  }
-
   .row:before {
     display: table;
     content: "";
@@ -137,16 +112,52 @@ nav li a
 .column-70 h1{
 
         margin: 0;
-        font-family: 'Merriweather ';
+        font-family: 'Merriweather';
         text-align: center;
         font-weight: bold;
         padding: 25px;
         background: floralwhite;
       /* margin-right: 58px;
   margin-left: 58px; */
-  margin-right: 7%;
-  margin-left: 7%;
+  /*! margin-right: 7%; */
+  /*! margin-left: 7%; */
         
+}
+
+
+
+
+.column-70 {
+    width: 68%;
+    float: left;
+/*     height: 500px; */
+  
+    padding: 21px;
+    box-sizing: border-box;
+  }
+
+  .column-70 img{
+    /*! height: 100%; */
+    width: 100%;
+  }
+
+
+  .column-30 {
+    width: 30%;
+    float: left;
+/*     height: 500px; */
+    padding: 42px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    background-color: floralwhite;
+    /*! margin-left: -10px; */
+    padding-top: 0px;
+  }
+
+
+  .column-30 p{
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 
@@ -154,23 +165,3 @@ nav li a
 
 
 
-
-
-
-
-
-
-
-/*
-div {
-    width: 200px;
-    height: 200px;
-    background-color: red ;
-   
-  }
-
-  .songs-container {
-    background-color: green;
- 
-  }
- */ 
