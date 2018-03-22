@@ -120,6 +120,20 @@ section {
     box-sizing: border-box;
 }
 
+*[id]::before { /*to show the header of the section when linking to the section*/
+
+    display: block;
+   
+    content: " ";
+   
+    margin-top: -30px;
+   
+    height: 30px;
+   
+    visibility: hidden;
+   
+   }
+   
 p {
     font-size: 20px;
     line-height: 25px;
